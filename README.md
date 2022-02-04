@@ -16,8 +16,6 @@ APPROVED_WELCOME On Or Off Approved Welcome Text
 
 APPROVED_WELCOME_TEXT Approved Welcome Text
 
-                  😎 𝗖𝗿𝗲𝗱𝗶𝘁𝘀 😎
-
                      Pyrogram
 
                       Muhammed

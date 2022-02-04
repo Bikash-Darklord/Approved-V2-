@@ -1,0 +1,52 @@
+{
+    "name": "ApprovedV2-Bot",
+    "description": "Iam ApprovedV2-Bot @hellodarklord",
+    "keywords": [
+        "Auto",
+        "Approved",
+        "Group",
+        "Invite",
+        "Link",
+        "Bot"
+    ],
+    "website": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
+    "repository": "https://github.com/PR0FESS0R-99/Auto-Approved-Bot",
+    "success_url": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
+    "env": {
+        "API_ID": {
+            "description": "Your APP ID From https://youtu.be/5eEsvLAKVc0 or @MT_MyTelegramOrg_Bot",
+            "value": "10585308"
+        },
+        "API_HASH": {
+            "description": "Your API Hash From https://youtu.be/5eEsvLAKVc0 or @MT_MyTelegramOrg_Bot",
+            "value": "c8e7cb62c10c52bfae94ed0e3223103d"
+        },
+        "BOT_TOKEN": {
+            "description": "Your Bot Token From @BotFather",
+            "value": "5229022310:AAFr6QttWUFaBiwXBlF9HC_ih0-Uyw4pAnE"
+        },
+        "CHAT_ID": {
+            "description": "Working Group ID @MT_ID_Bot",
+            "value": "1725059127"
+        },
+        "APPROVED_WELCOME": {
+            "description": "APPROVED_WELCOME On Or Off",
+            "value": "on"
+        },
+        "APPROVED_WELCOME_TEXT": {
+            "description": "APPROVED_WELCOME_TEXT : Welcome Text",
+            "value": "👋Hello{mention}\nWelcome To {title}\n\nYour Auto Approved"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
